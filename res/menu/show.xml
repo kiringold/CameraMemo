@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_more"
+        android:showAsAction="always"
+        android:title="メニュー">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="編集"/>
+            <item
+                android:id="@+id/subitem2"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="削除"/>
+        </menu>
+    </item>
+</menu>
